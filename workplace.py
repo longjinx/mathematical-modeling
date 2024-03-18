@@ -1,2 +1,5 @@
-a = 1
-print("it is a test,",a)
+for i in range(len(juice)):
+    if juice[i] in dic:
+        pass
+    else:
+        dic[juice[i]] = i
